@@ -22,7 +22,7 @@ app.get('/', function(req, res) {
 
 app.get('/pages/reservations', function(req, res) {
 	console.log("hello");
-    res.sendFile(path.join(__dirname + '/pages/reservations.html'));
+    res.sendFile(path.join(__dirname + '/pages/reservations.html')); //route
 });
 
 app.post('/book',function(req, res){
